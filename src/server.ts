@@ -14,5 +14,5 @@ app.use(express.json());
 app.use("/api/auth", authRouter);
 
 // Listen to port
-const PORT = process.env.MONGO_URI || 3000;
-app.listen(PORT, () => console.log("App is now listening on port 3000"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`App is now listening on port ${PORT}`));

@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "dist": "npx tsc && nodemon exec",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/bcrypt": "^5.0.2",
-    "@types/express": "^5.0.3"
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10"
   }
 }
