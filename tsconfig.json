@@ -5,6 +5,7 @@
   "exclude": ["node_modules"],
   "compilerOptions": {
     "target": "es2022",
-    "outDir": "dist"
+    "outDir": "dist",
+    "sourceMap": true
   }
 }

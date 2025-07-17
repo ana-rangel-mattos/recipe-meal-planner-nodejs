@@ -126,6 +126,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/
 
 # yarn v2
 .yarn/cache
@@ -142,5 +143,8 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+# Multer file
+uploads/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,dotenv

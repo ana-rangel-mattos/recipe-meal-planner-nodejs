@@ -28,6 +28,11 @@ const UserSchema = new Schema({
     required: [true, "Password is required"],
     trim: true,
   },
+  preferredNutritionUnit: {
+    type: String,
+    enum: ["kcal", "kj"],
+    default: "kcal",
+  },
 });
 
 const User = model("User", UserSchema);
